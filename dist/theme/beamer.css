@@ -29,17 +29,6 @@ ul li::before {
     margin-left: -1em
 }
 
-.reveal .slide-number {
-    font-size: 22px;
-    color: #000000;
-    background-color: transparent;
-}
-
-.reveal .controls {
-    bottom: 20px;
-    right: 30px;
-}
-
 .reveal .logo {
     height: 60px;
     margin: 2rem;

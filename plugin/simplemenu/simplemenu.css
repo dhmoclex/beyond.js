@@ -151,7 +151,7 @@ body.hide-menubar .reveal.ready .menubar a {
 }
 .reveal .slide-number a, .menubar .slide-number a {
   padding: 0;
-  opacity: 0.33;
+
   color: currentColor;
 }
 .reveal .slide-number a:hover, .menubar .slide-number a:hover {

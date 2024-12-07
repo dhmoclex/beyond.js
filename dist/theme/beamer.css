@@ -69,3 +69,19 @@ ul li::before {
 .reveal .code-wrapper code {
     white-space: pre-wrap;
 }
+
+.reveal .footer {
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    z-index: 2; /* above slides */
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    transition: bottom 0.5s ease; /* Transition fluide */
+}
+
+.hide-footer .reveal .footer {
+    bottom: -50px; /* Commence en dehors de l'écran */
+}

@@ -1,0 +1,94 @@
+/*
+Monokai style - ported by Luigi Maselli - http://grigio.org
+Dark version - updated by Sébastien Bertrand
+*/
+
+:root {
+  --md-color-accent1: #ff6188;
+  --md-color-accent2: #fc9867;
+  --md-color-accent3: #ffd866;
+  --md-color-accent4: #a9dc76;
+  --md-color-accent5: #78dce8;
+  --md-color-accent6: #ab9df2;
+  --md-color-dimmed1: #c1c0c0;
+  --md-color-dimmed2: #939293;
+  --md-color-dimmed3: #727072;
+  --md-color-dimmed4: #5b595c;
+  --md-color-dimmed5: #403e41;
+  --md-color-background: #221f22;
+  --md-color-text: #fcfcfa;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: var(--md-color-background);
+  color: var(--md-color-text);
+}
+
+.hljs-tag,
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-strong,
+.hljs-name {
+  color: var(--md-color-accent1);
+}
+
+.hljs-code {
+  color: var(--md-color-accent5);
+}
+
+.hljs-title.class_,
+.hljs-class .hljs-title {
+  color: white;
+}
+
+.hljs-title.function_,
+.hljs-class .hljs-function {
+  color: var(--md-color-accent2);
+}
+
+.hljs-attribute,
+.hljs-symbol,
+.hljs-regexp,
+.hljs-link {
+  color: var(--md-color-accent6);
+}
+
+.hljs-string,
+.hljs-bullet,
+.hljs-subst,
+.hljs-title,
+.hljs-section,
+.hljs-emphasis,
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable {
+  color: var(--md-color-accent4);
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion,
+.hljs-meta {
+  color: var(--md-color-dimmed3);
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-doctag,
+.hljs-title,
+.hljs-section,
+.hljs-type,
+.hljs-selector-id {
+  font-weight: bold;
+}

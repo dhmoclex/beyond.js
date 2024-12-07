@@ -1,0 +1,82 @@
+/**
+ * Beamer theme for reveal.js. This is a customized 'white' theme.
+ *
+ * By Sébastien Bertrand
+ */
+
+/* Base theme */
+@import url("white.css");
+
+:root {
+    --r-heading1-size: 1.3em;
+    --r-heading2-size: 1.2em;
+    --r-heading3-size: 1.1em;
+    --r-heading4-size: 1em;
+    --r-heading-color: #3333B2;
+    --r-main-font-size: 32px;
+    /*--r-heading-text-transform: none;*/
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li::before {
+    content: "▶";
+    color: #3333B2;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em
+}
+
+.reveal .slide-number {
+    font-size: 22px;
+    color: #000000;
+    background-color: transparent;
+}
+
+.reveal .controls {
+    bottom: 20px;
+    right: 30px;
+}
+
+.reveal .logo {
+    height: 60px;
+    margin: 2rem;
+}
+
+.reveal .orcid-icon {
+    height: 0.7em;
+    margin: 0;
+    vertical-align: baseline;
+}
+
+.reveal .author {
+    font-variant-caps: small-caps;
+}
+
+.reveal .columns {
+    display: flex;
+    align-items: center;
+}
+
+.reveal .column-flex-1 {
+    flex: 1;
+}
+
+.reveal .column-flex-2 {
+    flex: 2;
+}
+
+.reveal .column-flex-3 {
+    flex: 3;
+}
+
+.reveal .caption {
+    margin: 0;
+    font-size: medium;
+}
+
+.reveal .code-wrapper code {
+    white-space: pre-wrap;
+}

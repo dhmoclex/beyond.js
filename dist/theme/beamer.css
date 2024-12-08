@@ -35,6 +35,7 @@ ul li::before {
 }
 
 .reveal .orcid-icon {
+    display: none;
     height: 0.7em;
     margin: 0;
     vertical-align: baseline;

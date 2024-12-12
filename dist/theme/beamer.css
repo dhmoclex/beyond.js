@@ -13,7 +13,7 @@
     --r-heading3-size: 1.1em;
     --r-heading4-size: 1em;
     --r-heading-color: #3333B2;
-    --r-main-font-size: 32px;
+    --r-main-font-size: 24px;
     /*--r-heading-text-transform: none;*/
 }
 
@@ -27,6 +27,13 @@ ul li::before {
     display: inline-block;
     width: 1em;
     margin-left: -1em
+}
+
+.reveal .small {
+    display: inline-block;
+    font-size: 0.66em;
+    line-height: 1.2em;
+    vertical-align: top;
 }
 
 .reveal .logo {
@@ -85,4 +92,26 @@ ul li::before {
 
 .hide-footer .reveal .footer {
     bottom: -50px; /* Commence en dehors de l'écran */
+}
+
+.fragment.blur {
+    filter: blur(5px);
+}
+
+.fragment.blur.visible {
+    filter: none;
+}
+
+.reveal .list-intro {
+    margin: 1em 0 0 0;
+    text-align: left;
+}
+
+.reveal .hljs.has-highlights tr:not(.highlight-line) {
+    opacity: 0.4;
+    background-color: lightgrey;
+}
+
+.reveal .hljs table {
+    width: 100%;
 }
